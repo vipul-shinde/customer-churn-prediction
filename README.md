@@ -10,7 +10,7 @@
 
 ---
 
-<p align="center"> In tgis project, we are trying to predict the possibility of a customer churning by the end of next quater from a telecom company thus helping the company target and come up with offers for such customers.
+<p align="center"> In this project, we are trying to predict the possibility of a customer churning by the end of next quater from a telecom company thus helping the company target and come up with offers for such customers.
     <br>
 </p>
 
