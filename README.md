@@ -100,9 +100,24 @@ A Grid Search approach was used to fine tune the hyperparameters of RF, KNN and 
 
 ### Click to view 👇:
 
-[![forthebadge](figures/badges/solution-exploratory-data-analysis.svg)](https://github.com/vipul-shinde/customer-churn-prediction/blob/main/notebooks/02-model-building-and-evaluation.ipynb)
+[![forthebadge](figures/badges/solution-model-building.svg)](https://github.com/vipul-shinde/customer-churn-prediction/blob/main/notebooks/02-model-building-and-evaluation.ipynb)
 
-## 🏅 Model Evaluation <a name="model-evaluation"
+## 🏅 Model Evaluation <a name="model-evaluation">
+
+Here are the model's performance on the unseen test dataset:
+
+| **Model**                            | **Accuracy** | **Precision** | **Recall** | **f1-Score** | **ROC-AUC** |
+|--------------------------------------|--------------|---------------|------------|--------------|-------------|
+| Logistic Regression                  | 0.72         | 0.80          | 0.72       | 0.74         | 0.75        |
+| Random Forest Classifier             | 0.73         | 0.80          | 0.73       | 0.75         | 0.76        |
+| K Nearest Neighbors Classifier       | 0.78         | 0.78          | 0.78       | 0.78         | 0.72        |
+| Extreme Gradient Boosting Classifier | 0.79         | 0.78          | 0.79       | 0.78         | 0.70        |
+
+The ROC-AUC curve graph is as follows:
+
+<p align="center">
+    <img src="figures\roc_auc.png" alt="auc-curve" width="500px">
+</p>
 
 ## 🌟 Support <a name="support">
 
